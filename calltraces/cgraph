@@ -1,0 +1,7 @@
+digraph "callgraph" {
+  F1a13990 [label="matr_mult_ellpack\n46 852 020 405"];
+  F1a14a50 [label="main\n46 852 020 405"];
+  F1a35b90 [label="(below main)\n46 852 020 405"];
+  F1a14a50 -> F1a13990 [weight=3,label="46 852 020 405 (1x)"];
+  F1a35b90 -> F1a14a50 [weight=3,label="46 852 020 405 (1x)"];
+}
